@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0,0 L10,5.5 L0,11 z" fill="#4B7085"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-opacity="0.13"/></filter>
+  </defs>
+  <rect width="1400" height="760" fill="#F5FAFC"/>
+  <text x="70" y="72" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#073B57">From first-year momentum to four-year transfer prediction</text>
+  <text x="70" y="112" font-family="Arial, sans-serif" font-size="20" fill="#49677A">Unit of analysis: one California community college × entering cohort year</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="180" width="270" height="190" rx="20" fill="#FFFFFF" stroke="#20C9A6" stroke-width="3"/>
+    <text x="100" y="225" font-family="Arial" font-size="25" font-weight="700" fill="#073B57">Public DataVista exports</text>
+    <text x="100" y="266" font-family="Arial" font-size="18" fill="#334E60">General Admit Cohort</text>
+    <text x="100" y="298" font-family="Arial" font-size="18" fill="#334E60">Overall, all programs</text>
+    <text x="100" y="330" font-family="Arial" font-size="18" fill="#334E60">College × cohort panel</text>
+  </g>
+  <line x1="340" y1="275" x2="410" y2="275" stroke="#4B7085" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="420" y="150" width="360" height="250" rx="20" fill="#FFFFFF" stroke="#27A6D8" stroke-width="3"/>
+    <text x="450" y="195" font-family="Arial" font-size="25" font-weight="700" fill="#073B57">First-year predictors</text>
+    <text x="450" y="235" font-family="Arial" font-size="18" fill="#334E60">Course success rate</text>
+    <text x="450" y="268" font-family="Arial" font-size="18" fill="#334E60">Successful units</text>
+    <text x="450" y="301" font-family="Arial" font-size="18" fill="#334E60">Persistence</text>
+    <text x="450" y="334" font-family="Arial" font-size="18" fill="#334E60">30-unit completion</text>
+    <text x="450" y="367" font-family="Arial" font-size="18" fill="#334E60">Math + English; log cohort size</text>
+  </g>
+  <line x1="780" y1="275" x2="850" y2="275" stroke="#4B7085" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="860" y="150" width="250" height="250" rx="20" fill="#FFFFFF" stroke="#F2A65A" stroke-width="3"/>
+    <text x="895" y="195" font-family="Arial" font-size="25" font-weight="700" fill="#073B57">Model comparison</text>
+    <rect x="900" y="232" width="170" height="48" rx="12" fill="#DDF8F1"/>
+    <text x="985" y="263" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#087F6B">Linear regression</text>
+    <rect x="900" y="305" width="170" height="48" rx="12" fill="#FFF0E1"/>
+    <text x="985" y="336" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#B85612">KNN regression</text>
+  </g>
+  <line x1="1110" y1="275" x2="1180" y2="275" stroke="#4B7085" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1190" y="180" width="150" height="190" rx="20" fill="#073B57"/>
+    <text x="1265" y="225" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#FFFFFF">Target</text>
+    <text x="1265" y="270" text-anchor="middle" font-family="Arial" font-size="18" fill="#D8F7EF">Four-year</text>
+    <text x="1265" y="300" text-anchor="middle" font-family="Arial" font-size="18" fill="#D8F7EF">transfer</text>
+    <text x="1265" y="330" text-anchor="middle" font-family="Arial" font-size="18" fill="#D8F7EF">rate</text>
+  </g>
+
+  <rect x="140" y="485" width="1120" height="175" rx="24" fill="#E7F3F8" stroke="#9FC4D4" stroke-width="2"/>
+  <text x="180" y="530" font-family="Arial" font-size="25" font-weight="700" fill="#073B57">Chronological validation and failure analysis</text>
+  <text x="180" y="574" font-family="Arial" font-size="19" fill="#334E60">Train: 2015–16 to 2017–18</text>
+  <text x="500" y="574" font-family="Arial" font-size="19" fill="#334E60">Validate: 2018–19</text>
+  <text x="780" y="574" font-family="Arial" font-size="19" fill="#334E60">Test: 2019–20</text>
+  <line x1="180" y1="606" x2="1205" y2="606" stroke="#4B7085" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="180" y="642" font-family="Arial" font-size="18" fill="#49677A">Evaluate MAE, RMSE, R², small-college errors, and pandemic-era distribution shift</text>
+</svg>
